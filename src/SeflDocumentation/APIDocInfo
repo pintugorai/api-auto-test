@@ -1,0 +1,21 @@
+Issue-01: java.lang.IllegalArgumentException: Cannot serialize because no JSON or XML serializer found in classpath.
+Answer: If you add the below dependencies it will solve the above issue.
+Add json dependencies and implement to serialize Java objects into JSON or deserialize JSON data back into Java objects
+<!--Add jackson library -->
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.20.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.20.1</version>
+        </dependency>
+================================================
+Issue-02: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.api.models.response.LoginResponse` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+           at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+Answer: Add default constructor in LoginResponse.java class
+================================================
