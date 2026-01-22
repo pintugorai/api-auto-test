@@ -4,6 +4,7 @@ target/
 !**/src/test/**/target/
 .kotlin
 logs/test.log
+src/SeflDocumentation/Information
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
