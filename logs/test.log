@@ -1,0 +1,375 @@
+20:55:58.173 [main] INFO  com.api.tests.LoginTest - test 
+21:00:29.768 [main] INFO  com.api.tests.LoginTest - test 
+21:01:29.597 [main] INFO  com.api.tests.LoginTest - test 
+21:04:15.704 [main] INFO  com.api.tests.LoginTest - test 
+21:05:03.502 [main] INFO  com.api.tests.LoginTest - test 
+21:08:21.346 [main] INFO  com.api.tests.LoginTest - test 
+21:08:50.045 [main] INFO  com.api.tests.LoginTest - test 
+21:10:16.724 [main] INFO  com.api.listeners.TestListener - Test Started: apiAutoTest
+21:10:17.243 [main] INFO  com.api.tests.LoginTest - test 
+21:10:17.246 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+21:10:17.251 [main] INFO  com.api.listeners.TestListener - Finished tests in context: apiAutoTest
+08:29:58.366 [main] INFO  com.api.listeners.TestListener - Test Started: apiAutoTest
+08:29:59.798 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:29:59.798 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:29:59.798 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:30:00.942 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:30:00.943 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:00:00 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s%2FkgKkbA1oYGA9pZvW%2FnjjmhTJ%2BllSuwU%2BLre9mkdiBVU4l2UA7zvFOHC8TcetERSUiNWaPmagYmxijAogdfoFolrhzvILjemQhclIUh4y33SUA%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b51ab5cce4430-BOM
+alt-svc=h3=":443"; ma=86400
+08:30:00.976 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T02:59:59.999+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:30:01.022 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:30:01.025 [main] INFO  com.api.listeners.TestListener - Finished tests in context: apiAutoTest
+08:35:15.372 [main] INFO  com.api.listeners.TestListener - Test Started: apiAutoTest
+08:35:16.490 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:35:16.491 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:35:16.492 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:35:17.534 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:35:17.535 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:05:16 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7fp1p7%2BzV3%2Fm3CYiN9Yu9GV58azWjs78hKXg9m26C0BEIzjW9pPkx%2FNUKNSHlF7T4PvT58aJfBBdZVyafZ%2BTmWFOJbZ6TpXuby%2FSNibc%2B11bRW4%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b5965ccebedf5-BOM
+alt-svc=h3=":443"; ma=86400
+08:35:17.594 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:05:16.562+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:35:17.679 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:35:17.684 [main] INFO  com.api.listeners.TestListener - Finished tests in context: apiAutoTest
+08:35:43.100 [main] INFO  com.api.listeners.TestListener - Test Started: apiAutoTest
+08:35:44.358 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:35:44.359 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:35:44.360 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:35:45.401 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:35:45.401 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:05:44 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eI4EDKFcNNY2ccGsKt%2FLlRZ4FtImEc2S%2FfGuzU5fJF2syEFEniA7%2BpTqyXEA27kQA0iUXRyJy6PB4uYEOEhdrJe%2By%2BaPWk%2B0nOOiFYwzsy14shg%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b5a141a603a4d-BOM
+alt-svc=h3=":443"; ma=86400
+08:35:45.435 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:05:44.444+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:35:45.473 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:35:45.476 [main] INFO  com.api.listeners.TestListener - Finished tests in context: apiAutoTest
+08:41:28.720 [main] INFO  com.api.listeners.TestListener - Test Started: YourTestName
+08:41:29.282 [main] INFO  com.api.tests.LoginTest - test 
+08:41:29.285 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+08:41:30.003 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:41:30.004 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:41:30.004 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:41:31.374 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:41:31.375 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:11:30 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9fAJlc5cs00e6LIc2OZKRmHVCluIFwa4bvaX4pV2IezOcRlnTZ90eba47L3AYztLS%2BBF6ovBYxcmLTqCpKzT7tvvrZvqnH%2F6zP7OZfRN5hgZ"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b62859ba40e38-BOM
+alt-svc=h3=":443"; ma=86400
+08:41:31.413 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:11:30.417+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:41:31.467 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:41:31.482 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:41:31.482 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:41:31.482 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:41:31.718 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:41:31.718 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:11:30 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BQATlVRfaVDGqq7bTlaKJdgStJbppGaVYbckPImhdo05OZLwI4Y%2Bm1pVm5rnRa0c0fUGgvEQXuqE25I%2F1cGMASXAZrC1e2uzYG0da%2B239PRF3IU%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b6288cfa7409f-BOM
+alt-svc=h3=":443"; ma=86400
+08:41:31.720 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:11:30.809+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:41:31.723 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestModels
+08:41:31.765 [main] INFO  com.api.listeners.TestListener - Finished tests in context: YourTestName
+08:43:17.376 [main] INFO  com.api.listeners.TestListener - Test Started: YourTestName
+08:43:17.874 [main] INFO  com.api.tests.LoginTest - test 
+08:43:17.877 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+08:43:18.556 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:43:18.557 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:43:18.557 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:43:19.598 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:43:19.599 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:13:18 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2B5CiEemwBkQfXznrFyJUhTyony64OUoh%2FuiGSJ6exZXtj7oDiDUUOGfhjLAZfduZ02FmdX4YwcfHh%2Bka3nV5eb1ax2%2FfZZtYHdyUJjmJmKhEXWg%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b652abd8347da-BOM
+alt-svc=h3=":443"; ma=86400
+08:43:19.635 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:13:18.638+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:43:19.676 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:43:19.685 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:43:19.685 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:43:19.686 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:43:19.908 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:43:19.908 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:13:19 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=P4bjkoYwV82jekqQA1sigcwDJR7Lo39iCraKn1MO55l0B4pd9%2BpVEl6Vz6MO8YdRtwb2E4g762gFBQ%2FlxFFHx%2BJ%2Bkub9u7PRzizY9pNTEQDa%2Fy4%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b652d1e3e0029-BOM
+alt-svc=h3=":443"; ma=86400
+08:43:19.911 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:13:19.000+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:43:19.912 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestModels
+08:43:19.939 [main] INFO  com.api.listeners.TestListener - Finished tests in context: YourTestName
+08:43:57.953 [main] INFO  com.api.listeners.TestListener - Test Started: YourTestName
+08:43:58.515 [main] INFO  com.api.tests.LoginTest - test 
+08:43:58.519 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+08:43:59.321 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:43:59.321 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:43:59.322 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:44:00.369 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:44:00.370 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:13:59 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6ChCWU%2Bi%2B4jJvokghbJIFaW9ciLLcbCnZk2vuf1H1mCuvAxx1lIvnzZvmprnnJMGZSJ8NMRGbDDMfr1MQ34kMtGphlGLxp7j%2BeTmAwhViayUXEY%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b6629afeb493a-BOM
+alt-svc=h3=":443"; ma=86400
+08:44:00.414 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:13:59.414+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:44:00.464 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:44:00.478 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:44:00.478 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:44:00.478 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:44:00.714 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:44:00.714 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:13:59 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=wNpHTQ8eZ9UnOY3JtFxzhvYYXiPO5vVhGdZKENmJmOBk7ye5ajP4pm97n2F6xjjg18etSpkbCBBhCgGNbuysq%2Bzwgk%2FVlbIDek3iWfl0iM9jhiI%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b662c1da7d85a-BOM
+alt-svc=h3=":443"; ma=86400
+08:44:00.715 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:13:59.808+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:44:00.717 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestModels
+08:44:00.745 [main] INFO  com.api.listeners.TestListener - Finished tests in context: YourTestName
+08:45:58.344 [main] INFO  com.api.listeners.TestListener - Test Started: YourTestName
+08:45:58.880 [main] INFO  com.api.tests.LoginTest - test 
+08:45:58.883 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+08:45:59.601 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:45:59.601 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:45:59.602 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:46:00.853 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:46:00.854 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:15:59 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Uhfl7eCg7OcKEHhk3PG81W92XzfuS7Jw7hGqKIz5WUyDYgYYzalh1LFAkHFMSxpLnYobWQC%2BWFaX29KFsEtdVW70y39LfZL8h0LbP2izu22vMCE%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b69199cf8ff7b-BOM
+alt-svc=h3=":443"; ma=86400
+08:46:00.897 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:15:59.838+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:46:00.942 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+08:46:00.953 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+08:46:00.953 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+08:46:00.954 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+08:46:01.305 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+08:46:01.305 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:16:00 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=anOAlVxU%2BJmY0fJYvyh1TfyDI%2Fccfa0McaBBvGwqGoX%2FoIEzdELo4YUR3sru4VHcaVxZ%2B%2FoVpdO29yODCEMBptYU7%2BaU6XUZ0EgnVaz82HLP1tw%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b691d0a82446e-BOM
+alt-svc=h3=":443"; ma=86400
+08:46:01.307 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:16:00.286+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+08:46:01.310 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestModels
+08:46:01.342 [main] INFO  com.api.listeners.TestListener - Finished tests in context: YourTestName
+09:04:30.183 [main] INFO  com.api.listeners.TestListener - Test Started: YourTestName
+09:04:30.715 [main] INFO  com.api.tests.LoginTest - test 
+09:04:30.718 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTest
+09:04:31.372 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+09:04:31.373 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+09:04:31.373 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+09:04:32.678 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+09:04:32.678 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:34:31 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cxNf2XkaU062X5gMkH0DdVm6AhcG9WB5gJ3UuCzU0QhhomXLqyjG4V%2FPxheUCOsXNm%2BbZXg3olIUoPs1W3X22teIj7uqDx1qwn9mVYwxQLhrl4c%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b843f8db94230-BOM
+alt-svc=h3=":443"; ma=86400
+09:04:32.722 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:34:31.723+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+09:04:32.770 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestAndResponseModels
+09:04:32.779 [main] INFO  com.api.filters.LoggingFilter - BASE URI:https://api.restful-api.dev
+09:04:32.779 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+09:04:32.779 [main] INFO  com.api.filters.LoggingFilter - Request Body:{"username":"user1","password":"password1"}
+09:04:33.111 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+09:04:33.111 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 20 Jan 2026 03:34:32 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Server=cloudflare
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+cf-cache-status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=SLNrol7W5FqVU7n5bsVFl02%2Fjy1JS14SxIWFkzJfyNeu14tYueZTkoSEks5qAX%2BQvsjcRrBfaRMQLp34Fj5rSMBSRFtoxaaZT8J3vj2JIWRVz0A%3D"}]}
+Content-Encoding=gzip
+CF-RAY=9c0b84420f5effa1-BOM
+alt-svc=h3=":443"; ma=86400
+09:04:33.114 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "timestamp": "2026-01-20T03:34:32.214+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/auth/login"
+}
+09:04:33.117 [main] INFO  com.api.listeners.TestListener - Test Passed: loginTestUseRequestModels
+09:04:33.142 [main] INFO  com.api.listeners.TestListener - Finished tests in context: YourTestName
